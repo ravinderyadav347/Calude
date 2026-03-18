@@ -1,28 +1,30 @@
-### MSSQL MCP Server
+# MSSQL MCP Server
+
 A local Model Context Protocol (MCP) server that connects Claude Desktop to your MS SQL Server instance.
 
-##📋 Prerequisites
+### Pre-requisites
 
--Node.js v18 or higher
--Claude Desktop installed
--Access to your MS SQL Server instance
+    Node.js v18 or higher
+    Claude Desktop installed
+    Access to your MS SQL Server instance
 
 Here's your complete local MCP Server for MS SQL. Here's how to set it up:
-## Step 1 — Create the project folder
-mkdir mssql-mcp-server
-cd mssql-mcp-server
+
+### Step 1 — Create the project folder
+    mkdir mssql-mcp-server
+    cd mssql-mcp-server
 
 Copy both index.js and package.json into that folder.
 
-## Step 2 — Install dependencies
-npm install
+### Step 2 — Install dependencies
+    npm install
 
-## Step 3 — Test it runs
-node index.js
+### Step 3 — Test it runs
+    node index.js
 
 You should see: MSSQL MCP Server running on stdio
 
-## Step 4 — Register with Claude Desktop
+### Step 4 — Register with Claude Desktop
 Open your Claude Desktop config file:
 
 Windows: %APPDATA%\Claude\claude_desktop_config.json
